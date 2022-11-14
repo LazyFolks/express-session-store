@@ -1,0 +1,31 @@
+{
+  "name": "store-session",
+  "version": "0.0.0",
+  "description": "A simplified Redis Session Store.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyFolks/store-session.git"
+  },
+  "keywords": [
+    "store-session"
+  ],
+  "author": "Karthik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LazyFolks/store-session/issues"
+  },
+  "homepage": "https://github.com/LazyFolks/store-session#readme",
+  "dependencies": {
+    "connect-redis": "^6.1.3",
+    "express-session": "^1.17.3",
+    "ioredis": "^5.2.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
