@@ -18,6 +18,8 @@ const redisConfig = options => {
 
     const genid = () => options?.genid || generateSessionId()
 
+    const proxy = options?.proxy
+
     const cookieDomain = options?.cookie.domain
     const cookieExpires = options?.cookie.expires
 
@@ -46,6 +48,7 @@ const redisConfig = options => {
             signed:signedCookie,
             overwrite:overwriteCookie
         },
+        proxy: proxy,
         resave: resave 
     }
 

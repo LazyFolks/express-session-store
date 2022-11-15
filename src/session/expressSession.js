@@ -7,6 +7,7 @@ const generateSessionUUId =  () => crypto.randomUUID()
 
 module.exports = {
     session:session,
+    expressSession:session,
     generateSessionId:generateSessionId,
     generateSessionUUId:generateSessionUUId
 }
